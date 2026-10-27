@@ -90,9 +90,6 @@
   <img src="assets/divider.svg" width="100%" alt="Разделитель" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:374151,50:4b5563,100:6b7280&height=90&section=footer&v=5" width="100%" alt="Подвал" />
-</p>
 
 <p align="center">
   <picture><img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:09090f,50:312e81,100:06b6d4&animation=twinkling" width="100%" alt="Декоративный анимированный футер" /></picture>
