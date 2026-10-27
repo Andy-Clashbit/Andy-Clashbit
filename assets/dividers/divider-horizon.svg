@@ -9,15 +9,17 @@
       </feMerge>
     </filter>
 
-    <!-- Base static gradient fading out smoothly to both ends -->
+    <!-- Full-width base gradient from edge to edge -->
     <linearGradient id="horizonBase" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#312e81" stop-opacity="0" />
-      <stop offset="15%" stop-color="#312e81" stop-opacity="0.25" />
-      <stop offset="35%" stop-color="#6d28d9" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.9" />
-      <stop offset="65%" stop-color="#6d28d9" stop-opacity="0.6" />
-      <stop offset="85%" stop-color="#312e81" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#312e81" stop-opacity="0" />
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.6" />
+      <stop offset="12%" stop-color="#4f46e5" stop-opacity="0.75" />
+      <stop offset="30%" stop-color="#6d28d9" stop-opacity="0.85" />
+      <stop offset="48%" stop-color="#06b6d4" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="52%" stop-color="#06b6d4" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#6d28d9" stop-opacity="0.85" />
+      <stop offset="88%" stop-color="#4f46e5" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.6" />
     </linearGradient>
 
     <!-- Dynamic traveling light beam gradient -->
@@ -47,11 +49,11 @@
     }
   </style>
 
-  <!-- Base soft ambient aura -->
-  <line class="base-glow" x1="60" y1="12" x2="1140" y2="12" stroke="url(#horizonBase)" stroke-width="4" filter="url(#horizonGlow)" opacity="0.4" />
+  <!-- Base soft ambient aura spanning full width 0 -> 1200 -->
+  <line class="base-glow" x1="0" y1="12" x2="1200" y2="12" stroke="url(#horizonBase)" stroke-width="4.5" filter="url(#horizonGlow)" opacity="0.4" />
 
-  <!-- Crisp hairline -->
-  <line x1="20" y1="12" x2="1180" y2="12" stroke="url(#horizonBase)" stroke-width="1.5" />
+  <!-- Crisp hairline spanning full width 0 -> 1200 -->
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#horizonBase)" stroke-width="1.8" />
 
   <!-- Subtle smooth traveling light particle/shimmer -->
   <rect class="shimmer-light" y="10" width="300" height="4" rx="2" fill="url(#shimmerBeam)" opacity="0.85" filter="url(#horizonGlow)" />

@@ -9,15 +9,17 @@
       </feMerge>
     </filter>
 
-    <!-- Main cyberpunk gradient -->
+    <!-- Full-width gradient spanning 0% to 100% -->
     <linearGradient id="codeLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
-      <stop offset="20%" stop-color="#312e81" stop-opacity="0.35" />
-      <stop offset="38%" stop-color="#6d28d9" stop-opacity="0.75" />
-      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.9" />
-      <stop offset="62%" stop-color="#6d28d9" stop-opacity="0.75" />
-      <stop offset="80%" stop-color="#312e81" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.6" />
+      <stop offset="8%" stop-color="#312e81" stop-opacity="0.75" />
+      <stop offset="28%" stop-color="#6d28d9" stop-opacity="0.9" />
+      <stop offset="46%" stop-color="#06b6d4" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="54%" stop-color="#06b6d4" stop-opacity="0.95" />
+      <stop offset="72%" stop-color="#6d28d9" stop-opacity="0.9" />
+      <stop offset="92%" stop-color="#312e81" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
     </linearGradient>
 
     <!-- Chip border gradient -->
@@ -45,15 +47,22 @@
     }
   </style>
 
-  <!-- Ambient glow beam -->
-  <line x1="100" y1="18" x2="1100" y2="18" stroke="url(#codeLineGrad)" stroke-width="4" opacity="0.3" filter="url(#codeGlow)" />
+  <!-- Ambient glow beam spanning full width 0 -> 1200 -->
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="url(#codeLineGrad)" stroke-width="4.5" opacity="0.35" filter="url(#codeGlow)" />
 
-  <!-- Laser baseline -->
-  <line x1="50" y1="18" x2="1150" y2="18" stroke="url(#codeLineGrad)" stroke-width="1.5" />
+  <!-- Laser baseline spanning full width 0 -> 1200 -->
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="url(#codeLineGrad)" stroke-width="1.8" />
+
+  <!-- Outer edge terminal data nodes -->
+  <rect x="12" y="15" width="6" height="6" fill="#06b6d4" rx="1" opacity="0.8" />
+  <line x1="24" y1="18" x2="64" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 3" opacity="0.7" />
+
+  <line x1="1136" y1="18" x2="1176" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 3" opacity="0.7" />
+  <rect x="1182" y="15" width="6" height="6" fill="#06b6d4" rx="1" opacity="0.8" />
 
   <!-- Segmented data bus dashes near center -->
-  <line x1="430" y1="18" x2="530" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4" opacity="0.8" />
-  <line x1="670" y1="18" x2="770" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4" opacity="0.8" />
+  <line x1="430" y1="18" x2="540" y2="18" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="6 4" opacity="0.85" />
+  <line x1="660" y1="18" x2="770" y2="18" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="6 4" opacity="0.85" />
 
   <!-- Dev Terminal Chip in Center -->
   <g class="dev-chip" transform="translate(560, 6)">

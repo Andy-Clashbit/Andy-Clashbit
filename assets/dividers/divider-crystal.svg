@@ -9,15 +9,17 @@
       </feMerge>
     </filter>
 
-    <!-- Main cyberpunk gradient: Indigo -> Violet -> Neon Cyan -> Violet -> Indigo -->
+    <!-- Full-width cyberpunk gradient: reaches 0% and 100% edges -->
     <linearGradient id="crystalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
-      <stop offset="18%" stop-color="#312e81" stop-opacity="0.3" />
-      <stop offset="38%" stop-color="#6d28d9" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.65" />
+      <stop offset="8%" stop-color="#4f46e5" stop-opacity="0.8" />
+      <stop offset="28%" stop-color="#7c3aed" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#06b6d4" stop-opacity="0.95" />
       <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
-      <stop offset="62%" stop-color="#6d28d9" stop-opacity="0.8" />
-      <stop offset="82%" stop-color="#312e81" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="55%" stop-color="#06b6d4" stop-opacity="0.95" />
+      <stop offset="72%" stop-color="#7c3aed" stop-opacity="0.9" />
+      <stop offset="92%" stop-color="#4f46e5" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.65" />
     </linearGradient>
 
     <!-- Core crystal fill -->
@@ -73,13 +75,19 @@
     }
   </style>
 
-  <!-- Ambient background glow beam -->
-  <line x1="80" y1="18" x2="1120" y2="18" stroke="url(#crystalGrad)" stroke-width="5" opacity="0.35" filter="url(#crystalGlow)" />
+  <!-- Ambient background glow beam spanning full width 0 -> 1200 -->
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="url(#crystalGrad)" stroke-width="4.5" opacity="0.4" filter="url(#crystalGlow)" />
 
-  <!-- Crisp laser baseline -->
-  <line x1="40" y1="18" x2="1160" y2="18" stroke="url(#crystalGrad)" stroke-width="1.5" />
+  <!-- Crisp laser baseline spanning full width 0 -> 1200 -->
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="url(#crystalGrad)" stroke-width="1.8" />
 
-  <!-- Side tech dots -->
+  <!-- Outer edge accent nodes -->
+  <circle cx="16" cy="18" r="2" fill="#38bdf8" opacity="0.8" />
+  <circle cx="36" cy="18" r="1.5" fill="#7c3aed" opacity="0.6" />
+  <circle cx="1164" cy="18" r="1.5" fill="#7c3aed" opacity="0.6" />
+  <circle cx="1184" cy="18" r="2" fill="#38bdf8" opacity="0.8" />
+
+  <!-- Intermediate tech node dots -->
   <circle cx="490" cy="18" r="1.5" fill="#312e81" opacity="0.6" />
   <circle cx="515" cy="18" r="2" fill="#6d28d9" opacity="0.75" />
   <circle cx="538" cy="18" r="2.5" fill="#06b6d4" opacity="0.9" />
