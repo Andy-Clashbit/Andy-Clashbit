@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="100%" height="36" fill="none">
+  <defs>
+    <!-- Soft glow filter -->
+    <filter id="codeGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Main cyberpunk gradient -->
+    <linearGradient id="codeLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="20%" stop-color="#312e81" stop-opacity="0.35" />
+      <stop offset="38%" stop-color="#6d28d9" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.9" />
+      <stop offset="62%" stop-color="#6d28d9" stop-opacity="0.75" />
+      <stop offset="80%" stop-color="#312e81" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Chip border gradient -->
+    <linearGradient id="chipBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes cursor-blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes chip-glow {
+      0%, 100% { filter: drop-shadow(0 0 4px rgba(6, 182, 212, 0.4)); }
+      50% { filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.65)); }
+    }
+    .term-cursor {
+      animation: cursor-blink 1.2s infinite;
+    }
+    .dev-chip {
+      animation: chip-glow 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Ambient glow beam -->
+  <line x1="100" y1="18" x2="1100" y2="18" stroke="url(#codeLineGrad)" stroke-width="4" opacity="0.3" filter="url(#codeGlow)" />
+
+  <!-- Laser baseline -->
+  <line x1="50" y1="18" x2="1150" y2="18" stroke="url(#codeLineGrad)" stroke-width="1.5" />
+
+  <!-- Segmented data bus dashes near center -->
+  <line x1="430" y1="18" x2="530" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4" opacity="0.8" />
+  <line x1="670" y1="18" x2="770" y2="18" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4" opacity="0.8" />
+
+  <!-- Dev Terminal Chip in Center -->
+  <g class="dev-chip" transform="translate(560, 6)">
+    <!-- Pill background -->
+    <rect x="0" y="0" width="80" height="24" rx="12" fill="#09090f" stroke="url(#chipBorderGrad)" stroke-width="1.5" />
+
+    <!-- Code glyph </_> -->
+    <text x="35" y="16.5" fill="#38bdf8" font-family="'Fira Code', 'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">&lt;/&gt;</text>
+    <rect class="term-cursor" x="55" y="7" width="2" height="10" fill="#22c55e" rx="1" />
+  </g>
+</svg>
