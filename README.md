@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:374151,50:4b5563,100:6b7280&height=180&section=header&text=Andy%20Clashbit&fontSize=50&fontAlignY=35&animation=fadeIn&stroke=58a6ff&strokeWidth=1&v=5" width="100%" alt="Andy Clashbit" />
+  <img src="assets/header.png" width="100%" alt="Andy-Clashbit — Developer • Linux Enthusiast • AI • Automation" />
 </p>
 
 <p align="center">
@@ -26,12 +26,38 @@
   <img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%92_%D1%81%D0%B5%D1%82%D0%B8-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Статус: В сети"/>
 </p>
 
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
+
 ### 🛠️ // Технологический стек
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,flask,nodejs,react,postgres,html,css,git,github,vscode,linux,docker&perline=7" alt="Стек технологий" />
-  </a>
+  <img src="assets/tech/python.svg" width="52" height="52" alt="Python" title="Python" />
+  &nbsp;
+  <img src="assets/tech/ts.svg" width="52" height="52" alt="TypeScript" title="TypeScript" />
+  &nbsp;
+  <img src="assets/tech/js.svg" width="52" height="52" alt="JavaScript" title="JavaScript" />
+  &nbsp;
+  <img src="assets/tech/react.svg" width="52" height="52" alt="React" title="React" />
+  &nbsp;
+  <img src="assets/tech/docker.svg" width="52" height="52" alt="Docker" title="Docker" />
+  &nbsp;
+  <img src="assets/tech/restapi.svg" width="52" height="52" alt="REST API" title="REST API" />
+  &nbsp;
+  <img src="assets/tech/postgres.svg" width="52" height="52" alt="PostgreSQL" title="PostgreSQL" />
+  &nbsp;
+  <img src="assets/tech/arch.svg" width="52" height="52" alt="Arch Linux" title="Arch Linux" />
+  &nbsp;
+  <img src="assets/tech/linux.svg" width="52" height="52" alt="Linux" title="Linux" />
+  &nbsp;
+  <img src="assets/tech/git.svg" width="52" height="52" alt="Git" title="Git" />
+  &nbsp;
+  <img src="assets/tech/github.svg" width="52" height="52" alt="GitHub" title="GitHub" />
+</p>
+
+<p align="center">
+  <img src="assets/tech-marquee.svg" width="100%" alt="Стек технологий" />
 </p>
 
 <p align="center">

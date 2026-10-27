@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="arch-icon">
+  <defs>
+    <style>
+      @keyframes arch-pulse {
+        0%, 100% { filter: drop-shadow(0 0 2px #1793D1); }
+        50% { filter: drop-shadow(0 0 8px #33aadd); }
+      }
+      @keyframes arch-border {
+        0%, 100% { stroke: #30363d; }
+        50% { stroke: #1793D1; }
+      }
+      @keyframes arch-draw {
+        0% { stroke-dashoffset: 200; }
+        50% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 200; }
+      }
+      .arch-bg {
+        animation: arch-border 4s ease-in-out infinite;
+      }
+      .arch-path {
+        fill: #1793D1;
+        animation: arch-pulse 3s ease-in-out infinite;
+      }
+      .arch-stroke {
+        stroke: #79c0ff;
+        stroke-width: 1.5;
+        fill: none;
+        stroke-dasharray: 100;
+        animation: arch-draw 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <rect class="arch-bg" x="6" y="6" width="88" height="88" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <g transform="translate(18, 16) scale(2.65)">
+    <path class="arch-path" d="M11.39.605C10.376 3.092 9.764 4.72 8.635 7.132c.693.734 1.543 1.589 2.923 2.554-1.484-.61-2.496-1.224-3.252-1.86C6.86 10.842 4.596 15.138 0 23.395c3.612-2.085 6.412-3.37 9.021-3.862a6.61 6.61 0 01-.171-1.547l.003-.115c.058-2.315 1.261-4.095 2.687-3.973 1.426.12 2.534 2.096 2.478 4.409a6.52 6.52 0 01-.146 1.243c2.58.505 5.352 1.787 8.914 3.844-.702-1.293-1.33-2.459-1.929-3.57-.943-.73-1.926-1.682-3.933-2.713 1.38.359 2.367.772 3.137 1.234-6.09-11.334-6.582-12.84-8.67-17.74z"/>
+    <path class="arch-stroke" d="M11.39.605 L0 23.395 L22.898 21.36 Z"/>
+  </g>
+</svg>
