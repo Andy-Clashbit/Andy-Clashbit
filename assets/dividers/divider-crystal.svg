@@ -9,6 +9,15 @@
       </feMerge>
     </filter>
 
+    <!-- Arrow laser glow -->
+    <filter id="arrowGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <!-- Full-width cyberpunk gradient: reaches 0% and 100% edges -->
     <linearGradient id="crystalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#312e81" stop-opacity="0.65" />
@@ -41,37 +50,61 @@
         opacity: 1;
       }
     }
-    @keyframes brackets-shift {
+    @keyframes center-bracket-pulse {
       0%, 100% {
-        transform: translateX(0);
-        opacity: 0.75;
+        opacity: 0.35;
       }
       50% {
-        transform: translateX(1.5px);
-        opacity: 1;
+        opacity: 0.65;
       }
     }
-    @keyframes brackets-shift-left {
-      0%, 100% {
+    @keyframes arrow-fly-left {
+      0% {
         transform: translateX(0);
-        opacity: 0.75;
+        opacity: 0;
       }
-      50% {
-        transform: translateX(-1.5px);
-        opacity: 1;
+      10% {
+        opacity: 0.95;
+      }
+      75% {
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateX(-550px);
+        opacity: 0;
+      }
+    }
+    @keyframes arrow-fly-right {
+      0% {
+        transform: translateX(0);
+        opacity: 0;
+      }
+      10% {
+        opacity: 0.95;
+      }
+      75% {
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateX(550px);
+        opacity: 0;
       }
     }
     .crystal-core {
       transform-origin: 600px 18px;
       animation: crystal-pulse 3s ease-in-out infinite;
     }
-    .bracket-left {
-      transform-origin: 562px 18px;
-      animation: brackets-shift-left 3s ease-in-out infinite;
+    .center-bracket {
+      animation: center-bracket-pulse 3s ease-in-out infinite;
     }
-    .bracket-right {
-      transform-origin: 638px 18px;
-      animation: brackets-shift 3s ease-in-out infinite;
+    .arrow-fly-left {
+      animation: arrow-fly-left 4.4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+    }
+    .arrow-fly-right {
+      animation: arrow-fly-right 4.4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+    }
+    .wave-2 {
+      animation-delay: -2.2s;
     }
   </style>
 
@@ -96,9 +129,21 @@
   <circle cx="685" cy="18" r="2" fill="#6d28d9" opacity="0.75" />
   <circle cx="710" cy="18" r="1.5" fill="#312e81" opacity="0.6" />
 
-  <!-- Tech brackets < > -->
-  <path class="bracket-left" d="M 567 12 L 559 18 L 567 24" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-  <path class="bracket-right" d="M 633 12 L 641 18 L 633 24" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Ambient center brackets maintaining visual structure < > -->
+  <path class="center-bracket" d="M 567 12 L 559 18 L 567 24" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <path class="center-bracket" d="M 633 12 L 641 18 L 633 24" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Flying arrows group: Wave 1 (smooth outward flight) -->
+  <g filter="url(#arrowGlow)">
+    <path class="arrow-fly-left" d="M 567 12 L 559 18 L 567 24" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="arrow-fly-right" d="M 633 12 L 641 18 L 633 24" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Flying arrows group: Wave 2 (smooth offset flight) -->
+  <g filter="url(#arrowGlow)">
+    <path class="arrow-fly-left wave-2" d="M 567 12 L 559 18 L 567 24" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="arrow-fly-right wave-2" d="M 633 12 L 641 18 L 633 24" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
 
   <!-- Glowing central diamond crystal -->
   <g class="crystal-core" filter="url(#crystalGlow)">
