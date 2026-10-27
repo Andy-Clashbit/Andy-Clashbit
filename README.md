@@ -7,18 +7,19 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=while(alive)+%7B+code()%3B+%7D;%D0%9F%D1%80%D0%B5%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D1%8F+%D0%B8%D0%B4%D0%B5%D0%B8+%D0%B2+%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8+%D0%BA%D0%BE%D0%B4%D0%B0...;%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%E2%80%A2+%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0+%E2%80%A2+%D0%9B%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0;git+commit+-m+%22%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9+%D0%BA%D0%BE%D0%B4%22" alt="Typing SVG" />
   </a>
 </p>
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
-</p>
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg">
     <img alt="Граф активности Bomberman Andy-Clashbit" src="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg" width="100%">
   </picture>
+  
 </p>
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
+
+
 
 <p align="center">
   <a href="https://t.me/AndyClashbit"><img src="https://img.shields.io/badge/Telegram-@AndyClashbit-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
