@@ -56,7 +56,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/tech-marquee.svg" width="100%" alt="Стек технологий" />
+  <img src="assets/tech-marquee.svg" width="80%" alt="Стек технологий" />
 </p>
 
 <p align="center">
