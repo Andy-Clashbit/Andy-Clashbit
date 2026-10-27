@@ -15,13 +15,6 @@
   </a>
 </p>
 
-  
-</p>
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
-</p>
-
-
 
 <p align="center">
   <a href="https://t.me/AndyClashbit"><img src="https://img.shields.io/badge/Telegram-@AndyClashbit-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
