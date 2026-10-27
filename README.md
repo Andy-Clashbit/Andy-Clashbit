@@ -48,7 +48,7 @@
   &nbsp;
   <img src="assets/tech/arch.svg" width="52" height="52" alt="Arch Linux" title="Arch Linux" />
   &nbsp;
-  <img src="assets/tech/linux.svg" width="52" height="52" alt="Linux" title="Linux" />
+  <img src="assets/tech/linux.svg?v=2" width="52" height="52" alt="Linux" title="Linux" />
   &nbsp;
   <img src="assets/tech/git.svg" width="52" height="52" alt="Git" title="Git" />
   &nbsp;
