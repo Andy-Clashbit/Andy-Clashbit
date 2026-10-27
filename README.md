@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Разработчик" width="100%"/>
 </p>
 
@@ -24,10 +28,6 @@
   <a href="https://t.me/AndyClashbit"><img src="https://img.shields.io/badge/Telegram-@AndyClashbit-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="mailto:brook84@gmail.com"><img src="https://img.shields.io/badge/Email-brook84@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%92_%D1%81%D0%B5%D1%82%D0%B8-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Статус: В сети"/>
-</p>
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
 </p>
 
 <p align="center">
