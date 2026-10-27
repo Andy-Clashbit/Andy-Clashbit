@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+  <img src="assets/dividers/divider-code.svg" width="100%" alt="Разделитель" />
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+  <img src="assets/dividers/divider-code.svg" width="100%" alt="Разделитель" />
 </p>
 
 <table>
@@ -75,7 +75,7 @@
 </table>
 
 <p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+  <img src="assets/dividers/divider-code.svg" width="100%" alt="Разделитель" />
 </p>
 
 <p align="center">
@@ -88,7 +88,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+  <img src="assets/dividers/divider-code.svg" width="100%" alt="Разделитель" />
 </p>
 
 
