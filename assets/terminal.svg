@@ -1,75 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="100%" height="220" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 220" width="100%" height="220" fill="none">
   <defs>
     <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#30363d"/>
       <stop offset="50%" stop-color="#484f58"/>
       <stop offset="100%" stop-color="#21262d"/>
     </linearGradient>
+
+    <!-- Typewriter Sequential Path Animations -->
+    <path id="path0">
+      <animate id="d0" attributeName="d" begin="0s;d5.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
+    <path id="path1">
+      <animate id="d1" attributeName="d" begin="d0.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
+    <path id="path2">
+      <animate id="d2" attributeName="d" begin="d1.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
+    <path id="path3">
+      <animate id="d3" attributeName="d" begin="d2.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
+    <path id="path4">
+      <animate id="d4" attributeName="d" begin="d3.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
+    <path id="path5">
+      <animate id="d5" attributeName="d" begin="d4.end" dur="3400ms" fill="remove"
+        values="m24,118 h0 ; m24,118 h480 ; m24,118 h480 ; m24,118 h0"
+        keyTimes="0;0.52;0.82;1" />
+    </path>
   </defs>
 
   <style>
     .font-mono {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
     }
-    .prompt { fill: #58a6ff; font-weight: 600; font-size: 12.5px; }
-    .keyword { fill: #ff7b72; font-weight: 600; font-size: 12px; }
-    .func { fill: #d2a8ff; font-size: 12px; }
-    .string { fill: #a5d6ff; font-size: 12px; }
-    .comment { fill: #8b949e; font-style: italic; font-size: 11.5px; }
-    .success { fill: #7ee787; font-weight: 600; font-size: 12px; }
-    .dim { fill: #8b949e; font-size: 12px; }
-    .text-main { fill: #c9d1d9; font-size: 12px; }
+    .prompt { fill: #58a6ff; font-weight: 600; font-size: 12px; }
+    .type-line { fill: #79c0ff; font-weight: 600; font-size: 13.5px; }
+    .dim { fill: #8b949e; font-size: 11.5px; }
+    .success { fill: #7ee787; font-weight: 600; font-size: 11.5px; }
+    .text-main { fill: #c9d1d9; font-size: 11.5px; }
   </style>
 
-  <!-- Window Container -->
+  <!-- Terminal Card Background -->
   <rect x="0" y="0" width="540" height="220" rx="8" fill="#0d1117" stroke="url(#termBorder)" stroke-width="1.5"/>
 
-  <!-- Top Title Bar -->
-  <rect x="0" y="0" width="540" height="30" rx="8" fill="#161b22"/>
-  <rect x="0" y="20" width="540" height="10" fill="#161b22"/>
-  <line x1="0" y1="30" x2="540" y2="30" stroke="#30363d" stroke-width="1"/>
+  <!-- Window Header -->
+  <rect x="0" y="0" width="540" height="28" rx="8" fill="#161b22"/>
+  <rect x="0" y="18" width="540" height="10" fill="#161b22"/>
+  <line x1="0" y1="28" x2="540" y2="28" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Window Controls -->
-  <circle cx="16" cy="15" r="4.5" fill="#ff5f56"/>
-  <circle cx="30" cy="15" r="4.5" fill="#ffbd2e"/>
-  <circle cx="44" cy="15" r="4.5" fill="#27c93f"/>
+  <!-- Window Buttons -->
+  <circle cx="16" cy="14" r="4.5" fill="#ff5f56"/>
+  <circle cx="30" cy="14" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="14" r="4.5" fill="#27c93f"/>
 
   <!-- Window Title -->
-  <text x="270" y="19" fill="#8b949e" class="font-mono" font-size="11" text-anchor="middle">andy@linux-workstation: ~/developer/app.py</text>
+  <text x="270" y="18" fill="#8b949e" class="font-mono" font-size="11" text-anchor="middle">andy@linux-workstation: ~/developer/app.py (zsh)</text>
 
-  <!-- Terminal Content -->
-  <g class="font-mono" transform="translate(16, 50)">
-    <!-- Line 1: Cat script -->
-    <text y="0" class="prompt">andy@archlinux:~$ <tspan fill="#79c0ff">cat</tspan> <tspan fill="#c9d1d9">deploy.py</tspan></text>
+  <!-- Static Terminal Context -->
+  <g class="font-mono" transform="translate(20, 50)">
+    <text y="0" class="prompt">andy@archlinux:~$ <tspan fill="#c9d1d9">./auto_runner.sh --stream</tspan></text>
+    <text y="18" class="dim">[system] Arch Linux 6.12-zen • zsh 5.9 • tmux • alacritty</text>
+  </g>
 
-    <!-- Line 2: Import -->
-    <text y="18"><tspan class="keyword">import</tspan> <tspan class="text-main">system, automation</tspan></text>
+  <!-- Typewriter Active Display Box -->
+  <rect x="16" y="88" width="508" height="44" rx="5" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="28" y="103" class="dim font-mono" font-size="10">&gt; LIVE CODE &amp; TERMINAL EXECUTION:</text>
 
-    <!-- Line 3: Function -->
-    <text y="36"><tspan class="keyword">def</tspan> <tspan class="func">launch_workspace</tspan><tspan class="text-main">():</tspan></text>
+  <!-- Animated Typing Phrases -->
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path0">
+      $ fastfetch --config dev.json
+    </textPath>
+  </text>
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path1">
+      import automation, system, gamedev
+    </textPath>
+  </text>
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path2">
+      stack = ["Python", "TypeScript", "Docker", "SQL"]
+    </textPath>
+  </text>
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path3">
+      while system.is_alive(): code.optimize()
+    </textPath>
+  </text>
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path4">
+      git commit -m "clean architecture, zero overhead"
+    </textPath>
+  </text>
+  <text class="font-mono type-line">
+    <textPath xlink:href="#path5">
+      Status: 🟢 100% operational [Active / OK]
+    </textPath>
+  </text>
 
-    <!-- Line 4: Stack array -->
-    <text y="54" x="14"><tspan class="text-main">stack = [</tspan><tspan class="string">"Python"</tspan><tspan class="dim">, </tspan><tspan class="string">"TypeScript"</tspan><tspan class="dim">, </tspan><tspan class="string">"Docker"</tspan><tspan class="dim">, </tspan><tspan class="string">"SQL"</tspan><tspan class="text-main">]</tspan></text>
+  <!-- Blinking Cursor -->
+  <rect x="24" y="109" width="8" height="15" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
 
-    <!-- Line 5: Loop -->
-    <text y="72" x="14"><tspan class="keyword">while</tspan> <tspan class="text-main">system.is_alive():</tspan> <tspan class="func">optimize</tspan><tspan class="text-main">(stack)</tspan></text>
-
-    <!-- Line 6: Run command -->
-    <text y="94" class="prompt">andy@archlinux:~$ <tspan fill="#79c0ff">python3</tspan> <tspan fill="#c9d1d9">deploy.py</tspan></text>
-
-    <!-- Line 7: Success output -->
-    <text y="112"><tspan class="success">[✓]</tspan> <tspan class="text-main">OS: Arch Linux x86_64</tspan> <tspan class="dim">•</tspan> <tspan class="comment">Kernel: 6.12.8-zen</tspan></text>
-
-    <!-- Line 8: Status output -->
-    <text y="130"><tspan class="success">[✓]</tspan> <tspan class="text-main">Status:</tspan> <tspan class="success">🟢 100% operational [Active]</tspan></text>
-
-    <!-- Line 9: Prompt with animated blinking cursor -->
-    <g transform="translate(0, 150)">
-      <text y="0" class="prompt">andy@archlinux:~$</text>
-      <!-- Blinking Cursor -->
-      <rect x="135" y="-11" width="8" height="14" fill="#58a6ff">
-        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+  <!-- Lower Terminal Status & Loop -->
+  <g class="font-mono" transform="translate(20, 160)">
+    <text y="0"><tspan class="success">[✓]</tspan> <tspan class="text-main">Workstation Status: 🟢 100% operational [Active]</tspan></text>
+    <text y="20" class="prompt">andy@archlinux:~$ <tspan fill="#c9d1d9">while(alive) { code(); automate(); }</tspan></text>
+    <rect x="395" y="9" width="7" height="13" fill="#7ee787">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
