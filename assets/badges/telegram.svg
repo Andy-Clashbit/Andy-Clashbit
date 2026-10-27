@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="34" viewBox="0 0 205 34">
+  <defs>
+    <linearGradient id="tg-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="tg-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09090f"/>
+      <stop offset="100%" stop-color="#0e1726"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Capsule background -->
+  <rect x="1" y="1" width="203" height="32" rx="16" fill="url(#tg-glow)" stroke="url(#tg-border)" stroke-width="1.5"/>
+
+  <!-- Telegram Vector Icon -->
+  <g transform="translate(13, 9)">
+    <circle cx="8" cy="8" r="8" fill="#06b6d4" opacity="0.18"/>
+    <path fill="#06b6d4" d="M14.6 2.1c-.2-.2-.5-.2-.7-.1L1.2 7.1c-.3.1-.5.4-.5.7s.2.6.5.7l3.1 1.2 1.2 3.7c.1.3.4.5.7.5.2 0 .4-.1.5-.2l1.8-1.5 3.3 2.5c.2.1.4.2.6.2.1 0 .2 0 .3-.1.3-.1.4-.4.5-.6l2-11.4c0-.2-.1-.5-.3-.7zm-8.8 8.4l-.8-2.5 7.6-5.8-6.1 7.2-.7 1.1z"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="38" y="21" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3">Telegram</text>
+  <line x1="97" y1="10" x2="97" y2="24" stroke="#334155" stroke-width="1"/>
+  <text x="106" y="21" fill="#38bdf8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2">@AndyClashbit</text>
+</svg>

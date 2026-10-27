@@ -1,25 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="linux-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="linux-tux-icon">
   <defs>
     <style>
-      @keyframes tux-float {
-        0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-3px) rotate(2deg); }
+      @keyframes tux-breathe {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-2px) scale(1.02); }
       }
-      @keyframes linux-border {
-        0%, 100% { stroke: #30363d; }
-        50% { stroke: #FCC624; }
+      @keyframes tux-blink {
+        0%, 92%, 100% { transform: scaleY(1); }
+        96% { transform: scaleY(0.1); }
       }
-      .linux-bg {
-        animation: linux-border 4s ease-in-out infinite;
+      @keyframes linux-glow {
+        0%, 100% { stroke: #30363d; filter: drop-shadow(0 0 1px rgba(245, 158, 11, 0.2)); }
+        50% { stroke: #f59e0b; filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.5)); }
       }
-      .tux-group {
-        transform-origin: 50px 50px;
-        animation: tux-float 3s ease-in-out infinite;
+      .card-bg {
+        animation: linux-glow 4s ease-in-out infinite;
+      }
+      .tux-body {
+        transform-origin: 50px 75px;
+        animation: tux-breathe 3.5s ease-in-out infinite;
+      }
+      .tux-eyes {
+        transform-origin: 50px 32px;
+        animation: tux-blink 4s ease-in-out infinite;
       }
     </style>
   </defs>
-  <rect class="linux-bg" x="6" y="6" width="88" height="88" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
-  <g class="tux-group" transform="translate(20, 16) scale(2.5)">
-    <path fill="#FCC624" d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139z"/>
+
+  <!-- Dark Tech Card Background -->
+  <rect class="card-bg" x="6" y="6" width="88" height="88" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Tux Penguin Character -->
+  <g class="tux-body">
+    <!-- Orange Feet / Flippers -->
+    <ellipse cx="37" cy="80" rx="10" ry="4.5" fill="#f59e0b" transform="rotate(-10 37 80)" />
+    <ellipse cx="63" cy="80" rx="10" ry="4.5" fill="#f59e0b" transform="rotate(10 63 80)" />
+
+    <!-- Black Tail/Base -->
+    <ellipse cx="50" cy="74" rx="22" ry="9" fill="#111827" />
+
+    <!-- Black Body / Torso -->
+    <path d="M 31 42 C 22 54 22 74 34 78 C 44 81 56 81 66 78 C 78 74 78 54 69 42 C 65 37 63 26 50 26 C 37 26 35 37 31 42 Z" fill="#111827"/>
+
+    <!-- Black Flippers / Wings -->
+    <path d="M 28 44 C 18 50 16 64 24 70 C 27 72 31 66 33 56 Z" fill="#0f172a"/>
+    <path d="M 72 44 C 82 50 84 64 76 70 C 73 72 69 66 67 56 Z" fill="#0f172a"/>
+
+    <!-- White Belly -->
+    <path d="M 37 50 C 34 62 36 74 50 75 C 64 74 66 62 63 50 C 61 43 39 43 37 50 Z" fill="#f8fafc"/>
+
+    <!-- Head shading -->
+    <circle cx="50" cy="35" r="14.5" fill="#111827"/>
+
+    <!-- Eyes (with blinking animation) -->
+    <g class="tux-eyes">
+      <!-- White eye ovals -->
+      <ellipse cx="45" cy="31.5" rx="4.2" ry="5.8" fill="#ffffff"/>
+      <ellipse cx="55" cy="31.5" rx="4.2" ry="5.8" fill="#ffffff"/>
+      <!-- Black Pupils -->
+      <circle cx="46" cy="32" r="2" fill="#090d16"/>
+      <circle cx="54" cy="32" r="2" fill="#090d16"/>
+      <!-- Eye catchlights -->
+      <circle cx="47" cy="31" r="0.7" fill="#ffffff"/>
+      <circle cx="55" cy="31" r="0.7" fill="#ffffff"/>
+    </g>
+
+    <!-- Cute Beak -->
+    <path d="M 42 37 C 42 34 58 34 58 37 C 58 44 54 48 50 48 C 46 48 42 44 42 37 Z" fill="#f59e0b"/>
+    <path d="M 44 38 Q 50 41 56 38" stroke="#d97706" stroke-width="1" fill="none" stroke-linecap="round"/>
   </g>
 </svg>

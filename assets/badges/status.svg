@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="34" viewBox="0 0 152 34">
+  <defs>
+    <linearGradient id="status-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="status-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09090f"/>
+      <stop offset="100%" stop-color="#0d1b14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Capsule background -->
+  <rect x="1" y="1" width="150" height="32" rx="16" fill="url(#status-glow)" stroke="url(#status-border)" stroke-width="1.5"/>
+
+  <!-- Radar Beacon (Live animated pulse) -->
+  <g transform="translate(18, 17)">
+    <!-- Expanding ripple 1 -->
+    <circle cx="0" cy="0" r="4" fill="none" stroke="#22c55e" stroke-width="1.5">
+      <animate attributeName="r" values="4;10;4" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <!-- Center solid beacon dot -->
+    <circle cx="0" cy="0" r="4" fill="#22c55e" />
+    <circle cx="0" cy="0" r="2" fill="#86efac" />
+  </g>
+
+  <!-- Typography -->
+  <text x="35" y="21" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3">Статус</text>
+  <line x1="84" y1="10" x2="84" y2="24" stroke="#334155" stroke-width="1"/>
+  <text x="93" y="21" fill="#4ade80" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2">В сети</text>
+</svg>

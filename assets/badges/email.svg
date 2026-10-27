@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="34" viewBox="0 0 225 34">
+  <defs>
+    <linearGradient id="email-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="email-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09090f"/>
+      <stop offset="100%" stop-color="#140f24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Capsule background -->
+  <rect x="1" y="1" width="223" height="32" rx="16" fill="url(#email-glow)" stroke="url(#email-border)" stroke-width="1.5"/>
+
+  <!-- Mail Vector Icon -->
+  <g transform="translate(13, 9)">
+    <circle cx="8" cy="8" r="8" fill="#8b5cf6" opacity="0.18"/>
+    <path fill="#a78bfa" d="M2.5 4A1.5 1.5 0 0 0 1 5.5v5A1.5 1.5 0 0 0 2.5 12h11a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 13.5 4h-11zM2 5.625l5.54 3.463a.85.85 0 0 0 .92 0L14 5.625V10.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V5.625zM13.435 5L8 8.397 2.565 5h10.87z"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="38" y="21" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3">Email</text>
+  <line x1="77" y1="10" x2="77" y2="24" stroke="#334155" stroke-width="1"/>
+  <text x="86" y="21" fill="#c4b5fd" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.2">brook84@gmail.com</text>
+</svg>
