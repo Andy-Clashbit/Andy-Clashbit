@@ -8,9 +8,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg">
-    <img alt="Граф активности Bomberman Andy-Clashbit" src="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/Andy-Clashbit/output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/Andy-Clashbit/output/bomberman-contribution-graph.svg">
+    <img alt="Граф активности Bomberman Andy-Clashbit" src="https://raw.githubusercontent.com/Andy-Clashbit/Andy-Clashbit/output/bomberman-contribution-graph.svg" width="100%">
   </picture>
   
 <p align="center">
