@@ -58,8 +58,6 @@
   <img src="assets/divider.svg" width="100%" alt="Разделитель" />
 </p>
 
-### 🐧 // Системный терминал Linux
-
 <table>
   <tr>
     <td width="28%" align="center" valign="middle">
@@ -74,8 +72,6 @@
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Разделитель" />
 </p>
-
-### 📊 // Статистика и аналитика GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Andy-Clashbit&show_icons=true&theme=tokyonight&locale=ru&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF&text_color=C9D1D9" alt="Статистика Andy-Clashbit" height="165" />
