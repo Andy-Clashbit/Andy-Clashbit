@@ -1,44 +1,42 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=Andy%20Clashbit&fontSize=52&fontAlignY=35&animation=fadeIn&stroke=58a6ff&strokeWidth=1&v=2" width="100%" alt="Andy Clashbit" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f242c&height=180&section=header&text=Andy%20Clashbit&fontSize=50&fontAlignY=35&animation=fadeIn&stroke=58a6ff&strokeWidth=1&v=3" width="100%" alt="Andy Clashbit" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=%D0%98%D0%BD%D0%B4%D0%B8-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA+%D0%B8%D0%B3%D1%80;%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D1%80%D1%83%D1%82%D0%B8%D0%BD%D1%8B+%D0%BD%D0%B0+Python;%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85+RPG;%D0%94%D0%BE%D0%B1%D1%80%D0%BE+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B2+%D0%BC%D0%BE%D0%B9+%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8C!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=while(alive)+%7B+code()%3B+%7D;%D0%9F%D1%80%D0%B5%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D1%8F+%D0%B8%D0%B4%D0%B5%D0%B8+%D0%B2+%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8+%D0%BA%D0%BE%D0%B4%D0%B0...;%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%E2%80%A2+%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0+%E2%80%A2+%D0%9B%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0;git+commit+-m+%22%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B9+%D0%BA%D0%BE%D0%B4%22" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Мультизадачный разработчик" width="480"/>
+  <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Разработчик" width="480"/>
 </p>
 
 <p align="center">
   <a href="https://t.me/AndyClashbit"><img src="https://img.shields.io/badge/Telegram-@AndyClashbit-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="mailto:brook84@gmail.com"><img src="https://img.shields.io/badge/Email-brook84@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%92_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Статус: В разработке"/>
+  <img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%92_%D1%81%D0%B5%D1%82%D0%B8-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Статус: В сети"/>
 </p>
 
 ---
 
-### 🧑‍💻 // Обо мне
+### 💻 // Системный терминал
 
 ```yaml
-╭─ 👨‍💻 Andy-Clashbit@github ~ $ neofetch --profile
-├── ⚡ Роль:          Инди-разработчик игр и инженер автоматизации
-├── 🕹️ Направление:   Пошаговая механика, процедурные лабиринты, архитектура RPG
-├── 🧠 Языки:         Python • Современный JavaScript • TypeScript • SQL
-├── ⚙️ Фреймворки:    Flask • Node.js • React • RESTful API
-├── 🚀 Философия:     "Автоматизируй рутину, создавай интерактивное."
-├── 🎯 В фокусе:      Разработка игровых механик и полезных скриптов
-├── 💬 Связь:         Telegram, эксперименты в геймдеве, архитектура кода
-╰─ ☕ Ресурс:         Кофе, синтвейв и ночные коммиты [████████████████] 100%
+╭─ ⚡ workspace@andy-clashbit ~ $ sysinfo --summary
+├── 📦 Назначение:     Разработка, автоматизация процессов, системные скрипты
+├── 🧠 Технологии:     Python • TypeScript • JavaScript • SQL • REST API
+├── ⚙️ Инструменты:    Git • Docker • Linux • VS Code • Node.js
+├── 📡 Задачи:         Автоматизация рутины, оптимизация, чистая архитектура
+├── 🎯 Принцип:        "Минимум усложнений, максимум надёжности и скорости"
+╰─ 🚀 Статус системы:  Все сервисы работают стабильно [OK]
 ```
 
 ---
 
 ### 💣 // Аркадная арена активности: Bomberman
 
-> 🕹️ **Битва активности**: Две бомбы взрывают клетки коммитов прямо на поле активности GitHub! Анимация генерируется автоматически через GitHub Actions раз в сутки.
+> 🕹️ **Анимированный график коммитов**: Две бомбы взрывают ячейки активности прямо на сетке GitHub. Обновляется автоматически каждые 24 часа.
 
 <p align="center">
   <picture>
@@ -50,7 +48,7 @@
 
 ---
 
-### 🛠️ // Стек технологий и инструменты
+### 🛠️ // Технологический стек
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -60,7 +58,7 @@
 
 ---
 
-### 📊 // Статистика и активность GitHub
+### 📊 // Статистика и аналитика GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Andy-Clashbit&show_icons=true&theme=tokyonight&locale=ru&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=79C0FF&text_color=C9D1D9" alt="Статистика Andy-Clashbit" height="165" />
@@ -74,5 +72,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=100&section=footer&v=2" width="100%" alt="Подвал" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f242c&height=90&section=footer&v=3" width="100%" alt="Подвал" />
 </p>
