@@ -30,7 +30,9 @@
   <img src="assets/divider.svg" width="100%" alt="Разделитель" />
 </p>
 
-### 🛠️ // Технологический стек
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
 
 <p align="center">
   <img src="assets/tech/python.svg" width="52" height="52" alt="Python" title="Python" />
