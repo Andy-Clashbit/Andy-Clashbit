@@ -9,7 +9,15 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Разработчик" width="480"/>
+  <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Разработчик" width="100%"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg">
+    <img alt="Граф активности Bomberman Andy-Clashbit" src="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -31,20 +39,6 @@
 ├── 🎯 Принцип:        "Минимум усложнений, максимум надёжности и скорости"
 ╰─ 🚀 Статус системы:  Все сервисы работают стабильно [OK]
 ```
-
----
-
-### 💣 // Аркадная арена активности: Bomberman
-
-> 🕹️ **Анимированный график коммитов**: Две бомбы взрывают ячейки активности прямо на сетке GitHub. Обновляется автоматически каждые 24 часа.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg">
-    <img alt="Граф активности Bomberman Andy-Clashbit" src="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg" width="100%">
-  </picture>
-</p>
 
 ---
 
