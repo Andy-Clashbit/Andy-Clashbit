@@ -1,6 +1,9 @@
 README1.md
 about.md
 image/
-/docs/adr/
+docs/
 avatar.*
 /avatar.*
+assets/dividers/preview.html
+assets/divider.svg
+assets/divider-pixel.svg
