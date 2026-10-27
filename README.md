@@ -13,10 +13,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eba80995-c43b-4282-9058-cda308b42e67" alt="Andy-Clashbit Разработчик" width="100%"/>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy-Clashbit/readme.md/output/bomberman-contribution-graph.svg">
