@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="100%" height="220" fill="none">
+  <defs>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="50%" stop-color="#484f58"/>
+      <stop offset="100%" stop-color="#21262d"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .prompt { fill: #58a6ff; font-weight: 600; font-size: 12.5px; }
+    .keyword { fill: #ff7b72; font-weight: 600; font-size: 12px; }
+    .func { fill: #d2a8ff; font-size: 12px; }
+    .string { fill: #a5d6ff; font-size: 12px; }
+    .comment { fill: #8b949e; font-style: italic; font-size: 11.5px; }
+    .success { fill: #7ee787; font-weight: 600; font-size: 12px; }
+    .dim { fill: #8b949e; font-size: 12px; }
+    .text-main { fill: #c9d1d9; font-size: 12px; }
+  </style>
+
+  <!-- Window Container -->
+  <rect x="0" y="0" width="540" height="220" rx="8" fill="#0d1117" stroke="url(#termBorder)" stroke-width="1.5"/>
+
+  <!-- Top Title Bar -->
+  <rect x="0" y="0" width="540" height="30" rx="8" fill="#161b22"/>
+  <rect x="0" y="20" width="540" height="10" fill="#161b22"/>
+  <line x1="0" y1="30" x2="540" y2="30" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="16" cy="15" r="4.5" fill="#ff5f56"/>
+  <circle cx="30" cy="15" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="15" r="4.5" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="270" y="19" fill="#8b949e" class="font-mono" font-size="11" text-anchor="middle">andy@linux-workstation: ~/developer/app.py</text>
+
+  <!-- Terminal Content -->
+  <g class="font-mono" transform="translate(16, 50)">
+    <!-- Line 1: Cat script -->
+    <text y="0" class="prompt">andy@archlinux:~$ <tspan fill="#79c0ff">cat</tspan> <tspan fill="#c9d1d9">deploy.py</tspan></text>
+
+    <!-- Line 2: Import -->
+    <text y="18"><tspan class="keyword">import</tspan> <tspan class="text-main">system, automation</tspan></text>
+
+    <!-- Line 3: Function -->
+    <text y="36"><tspan class="keyword">def</tspan> <tspan class="func">launch_workspace</tspan><tspan class="text-main">():</tspan></text>
+
+    <!-- Line 4: Stack array -->
+    <text y="54" x="14"><tspan class="text-main">stack = [</tspan><tspan class="string">"Python"</tspan><tspan class="dim">, </tspan><tspan class="string">"TypeScript"</tspan><tspan class="dim">, </tspan><tspan class="string">"Docker"</tspan><tspan class="dim">, </tspan><tspan class="string">"SQL"</tspan><tspan class="text-main">]</tspan></text>
+
+    <!-- Line 5: Loop -->
+    <text y="72" x="14"><tspan class="keyword">while</tspan> <tspan class="text-main">system.is_alive():</tspan> <tspan class="func">optimize</tspan><tspan class="text-main">(stack)</tspan></text>
+
+    <!-- Line 6: Run command -->
+    <text y="94" class="prompt">andy@archlinux:~$ <tspan fill="#79c0ff">python3</tspan> <tspan fill="#c9d1d9">deploy.py</tspan></text>
+
+    <!-- Line 7: Success output -->
+    <text y="112"><tspan class="success">[✓]</tspan> <tspan class="text-main">OS: Arch Linux x86_64</tspan> <tspan class="dim">•</tspan> <tspan class="comment">Kernel: 6.12.8-zen</tspan></text>
+
+    <!-- Line 8: Status output -->
+    <text y="130"><tspan class="success">[✓]</tspan> <tspan class="text-main">Status:</tspan> <tspan class="success">🟢 100% operational [Active]</tspan></text>
+
+    <!-- Line 9: Prompt with animated blinking cursor -->
+    <g transform="translate(0, 150)">
+      <text y="0" class="prompt">andy@archlinux:~$</text>
+      <!-- Blinking Cursor -->
+      <rect x="135" y="-11" width="8" height="14" fill="#58a6ff">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

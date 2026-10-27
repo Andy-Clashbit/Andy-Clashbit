@@ -45,20 +45,8 @@
     <td width="28%" align="center" valign="middle">
       <img src="assets/octocat.png" width="210" alt="Andy-Clashbit Octocat" />
     </td>
-    <td width="72%" valign="middle">
-
-```yaml
-╭─ 🐧 andy@linux-workstation:~$ fastfetch --config dev.json
-├── 🖥️  OS:            Arch Linux x86_64
-├── ⚡ Ядро:           Linux 6.12.8-zen (x86_64)
-├── 🐚 Оболочка:       zsh 5.9 [oh-my-zsh] • tmux 3.5
-├── 💻 Терминал:       Alacritty (xterm-256color)
-├── 🧠 Стек:           Python • TypeScript • JavaScript • SQL • REST API
-├── 🛠️  Инструменты:    Docker • Git • GitHub Actions • VS Code • Node.js
-├── 🎯 Принцип:        "Минимум оверхеда, чистый код, максимум автоматизации"
-╰─ 🚀 Статус системы:  🟢 Все сервисы активны [Systemd: 100% OK]
-```
-
+    <td width="72%" align="center" valign="middle">
+      <img src="assets/terminal.svg" width="100%" alt="Linux Terminal" />
     </td>
   </tr>
 </table>
