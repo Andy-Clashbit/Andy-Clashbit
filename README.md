@@ -34,7 +34,9 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
 
 ### 🐧 // Системный терминал Linux
 
@@ -50,7 +52,9 @@
 ╰─ 🚀 Статус системы:  🟢 Все сервисы активны [Systemd: 100% OK]
 ```
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
 
 ### 📊 // Статистика и аналитика GitHub
 
@@ -63,7 +67,9 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Andy-Clashbit&theme=tokyonight&locale=ru&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72&currStreakLabel=79C0FF" alt="Серия коммитов GitHub" />
 </p>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Разделитель" />
+</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:374151,50:4b5563,100:6b7280&height=90&section=footer&v=5" width="100%" alt="Подвал" />

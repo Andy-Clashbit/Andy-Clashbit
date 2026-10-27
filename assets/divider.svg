@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="100%" height="24" fill="none">
+  <defs>
+    <!-- Track gradient with soft fade-out at edges -->
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#30363d" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#484f58" stop-opacity="1"/>
+      <stop offset="88%" stop-color="#30363d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glowing laser beam gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#58a6ff" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#79c0ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Static dashed baseline -->
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#trackGrad)" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Halo aura (wide soft glow) -->
+  <rect y="7" width="240" height="10" rx="5" fill="url(#laserGrad)" opacity="0.35">
+    <animate attributeName="x" from="-260" to="1240" dur="2.8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Sharp laser pulse core -->
+  <rect y="10" width="180" height="4" rx="2" fill="url(#laserGrad)">
+    <animate attributeName="x" from="-260" to="1240" dur="2.8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Core energy flare -->
+  <circle cy="12" r="3.5" fill="#ffffff">
+    <animate attributeName="cx" from="-80" to="1420" dur="2.8s" repeatCount="indefinite" />
+  </circle>
+</svg>
