@@ -40,6 +40,13 @@
 
 ### 🐧 // Системный терминал Linux
 
+<table>
+  <tr>
+    <td width="28%" align="center" valign="middle">
+      <img src="assets/octocat.png" width="210" alt="Andy-Clashbit Octocat" />
+    </td>
+    <td width="72%" valign="middle">
+
 ```yaml
 ╭─ 🐧 andy@linux-workstation:~$ fastfetch --config dev.json
 ├── 🖥️  OS:            Arch Linux x86_64
@@ -51,6 +58,10 @@
 ├── 🎯 Принцип:        "Минимум оверхеда, чистый код, максимум автоматизации"
 ╰─ 🚀 Статус системы:  🟢 Все сервисы активны [Systemd: 100% OK]
 ```
+
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Разделитель" />
