@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f242c&height=180&section=header&text=Andy%20Clashbit&fontSize=50&fontAlignY=35&animation=fadeIn&stroke=58a6ff&strokeWidth=1&v=3" width="100%" alt="Andy Clashbit" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:374151,50:4b5563,100:6b7280&height=180&section=header&text=Andy%20Clashbit&fontSize=50&fontAlignY=35&animation=fadeIn&stroke=58a6ff&strokeWidth=1&v=5" width="100%" alt="Andy Clashbit" />
 </p>
 
 <p align="center">
@@ -26,22 +26,6 @@
   <img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%92_%D1%81%D0%B5%D1%82%D0%B8-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Статус: В сети"/>
 </p>
 
----
-
-### 💻 // Системный терминал
-
-```yaml
-╭─ ⚡ workspace@andy-clashbit ~ $ sysinfo --summary
-├── 📦 Назначение:     Разработка, автоматизация процессов, системные скрипты
-├── 🧠 Технологии:     Python • TypeScript • JavaScript • SQL • REST API
-├── ⚙️ Инструменты:    Git • Docker • Linux • VS Code • Node.js
-├── 📡 Задачи:         Автоматизация рутины, оптимизация, чистая архитектура
-├── 🎯 Принцип:        "Минимум усложнений, максимум надёжности и скорости"
-╰─ 🚀 Статус системы:  Все сервисы работают стабильно [OK]
-```
-
----
-
 ### 🛠️ // Технологический стек
 
 <p align="center">
@@ -49,6 +33,22 @@
     <img src="https://skillicons.dev/icons?i=py,js,ts,flask,nodejs,react,postgres,html,css,git,github,vscode,linux,docker&perline=7" alt="Стек технологий" />
   </a>
 </p>
+
+---
+
+### 🐧 // Системный терминал Linux
+
+```yaml
+╭─ 🐧 andy@linux-workstation:~$ fastfetch --config dev.json
+├── 🖥️  OS:            Arch Linux x86_64
+├── ⚡ Ядро:           Linux 6.12.8-zen (x86_64)
+├── 🐚 Оболочка:       zsh 5.9 [oh-my-zsh] • tmux 3.5
+├── 💻 Терминал:       Alacritty (xterm-256color)
+├── 🧠 Стек:           Python • TypeScript • JavaScript • SQL • REST API
+├── 🛠️  Инструменты:    Docker • Git • GitHub Actions • VS Code • Node.js
+├── 🎯 Принцип:        "Минимум оверхеда, чистый код, максимум автоматизации"
+╰─ 🚀 Статус системы:  🟢 Все сервисы активны [Systemd: 100% OK]
+```
 
 ---
 
@@ -66,5 +66,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f242c&height=90&section=footer&v=3" width="100%" alt="Подвал" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:374151,50:4b5563,100:6b7280&height=90&section=footer&v=5" width="100%" alt="Подвал" />
 </p>
