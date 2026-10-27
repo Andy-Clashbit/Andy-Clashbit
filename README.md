@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/dividers/divider-crystal.svg" width="100%" alt="Разделитель" />
+  <img src="assets/dividers/divider-crystal.svg?v=2" width="100%" alt="Разделитель" />
 </p>
 
 <p align="center">
